@@ -10,6 +10,6 @@ Here is simple html code...
   </head>
   <body>
     <h1>Wecome to HTML</h1>
-    <p>You just wrote a program</p>
+    <p>I just wrote a program</p>
   </body>
 </html>
