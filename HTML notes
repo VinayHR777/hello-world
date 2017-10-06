@@ -133,4 +133,88 @@ For example,
   Oh, bring back my Bonnie to me.
 </pre>
 ----------------------------------------
+The HTML Style Attribute:
+Setting the style of an HTML element, can be done with the style attribute.
+It has the following syntax:
+<tagname style="property:value;">
+The property is a CSS property. The value is a CSS value.
+
+For example1,
+<body style="background-color:powderblue;">
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body>
+For example2,
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+For example3,
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+For example4,
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+For example5,
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+----------------------------------------------------
+<b> element:
+defines bold text, without any extra importance.
+<b>This text is bold</b>
+--------------------------------------
+<strong> element:
+defines strong text, with added semantic "strong" importance.
+"Strong" could (and often does) mean "bold" in a browser,but it could also mean a lower tone for a
+speaking program like Jaws (for blind people) or be represented by an underline (since you can't bold a bold) on a Palm Pilot.
+<strong>This text is strong</strong>
+---------------------------------------
+<i> element:
+defines italic text, without any extra importance.
+<i>This text is italic</i>
+-----------------------------------
+<em> element:
+defines emphasized text, with added semantic importance.
+<em>This text is emphasized</em>
+
+Browsers display <strong> as <b>, and <em> as <i>. However, there is a difference in the meaning of these tags: 
+<b> and <i> defines bold and italic text, but <strong> and <em> means that the text is "important".
+----------------------------------
+<small> element:
+defines smaller text.
+<h2>HTML <small>Small</small> Formatting</h2>
+------------------------------------
+<mark> element:
+defines marked or highlighted text.
+<h2>HTML <mark>Marked</mark> Formatting</h2>
+-------------------------------------
+<del> element:
+defines deleted (removed) text with a scratch mark on it.
+<p>My favorite color is <del>blue</del> red.</p>
+-------------------------------------
+<ins> element:
+defines inserted (added) text with an underline.
+<p>My favorite <ins>color</ins> is red.</p>
+------------------------------------------
+<sub> element:
+defines subscripted text.
+<p>This is <sub>subscripted</sub> text.</p>
+---------------------------------------
+<sup> element:
+defines superscripted text.
+<p>This is <sup>superscripted</sup> text.</p>
+-------------------------------------
+<q> element:
+defines a short quotation.Browsers usually insert quotation marks around the <q> element.
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+--------------------------------------
+<blockquote> element:
+Browsers usually indent <blockquote> elements. i.e., it displays paragraph with neatly arranged.
+<blockquote>
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+-------------------------------------
+
 
