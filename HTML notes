@@ -1,0 +1,136 @@
+Encoding type for HTML page while saving the file is UTF-8. Extension can be .htm or .html
+-------------------------
+A simple HTML document:
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in. 
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the document. 
+The <title> element specifies a title for the document
+The <body> element contains the visible page content
+-------------------------------
+element:
+An element in HTML represents some kind of structure or semantics and generally consists of a start tag, content, and an end tag. 
+The following is a paragraph element:
+<p>
+This is the content of the paragraph element.
+</p>
+HTML tags are not case sensitive: <P> means the same as <p>.
+-----------------------------
+<head> element:
+The most common elements found in the <head> tag are: <title>, <meta>, <link> and <script> tags.
+-------------------------------
+<meta> element:
+The HTML <meta> tag contains information or metadata that is not directly visible on the web page, but is used by browsers and 
+search engines.
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The HTML meta tag is an element that resides within the HTML head tag.">
+<meta name="keywords" content="html, meta, tag, element">
+<meta name="author" content="www.techonthenet.com">
+<title>HTML 5 Example by www.techonthenet.com</title>
+</head>
+<body>
+</body>
+</html>
+In this HTML 5 Document example, we have created 5 meta tags. The first meta tag (charset) defines the character 
+encoding for the HTML document. The second meta tag (viewport) is used when designing a responsive web site.
+A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling.
+The width=device-width part sets the width of the page to follow the screen-width of the device 
+(which will vary depending on the device).
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+The third meta tag (description) provides a description for the web page for the search engines.
+The fourth meta tag (keywords) provides keywords for the search engines. 
+The final meta tag (author) defines the author of the web page.
+------------------------------------------
+<link> element:
+The <link> tag defines a link between a document and an external resource.
+The <link> tag is used to link to external style sheets.
+for example,
+<head>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+-----------------------------------------
+<script> element:
+The HTML <script> tag is used to embed or reference a client-side script such as JavaScript. 
+There are two ways that you can use the <script> tag. You can either embed the code within the <script> tags or 
+you can reference a file that includes the code.
+
+Embedded Code:
+<script type="text/javascript">
+  client-side scripting goes here ...
+</script>
+
+Reference a File:
+<script src="/js/functions.js" type="text/javascript"></script>
+---------------------------------------------
+HTML Headings:
+HTML headings are defined with the <h1> to <h6> tags.
+<h1> is the biggest and <h6> is the smallest.
+for example,
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+-------------------------------------
+<p> element:
+HTML paragraphs are defined with the <p> tag.'enter' in the paragraph will be considered as single space in the browser.
+<p>This is a paragraph.</p>
+-----------------------------------
+<a> element:
+HTML links are defined with the <a> tag.
+<a href="https://www.w3schools.com">This is a link</a>
+---------------------------------
+<img> element:
+HTML images are defined with the <img> tag.
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+---------------------------------
+HTML Attributes:
+All HTML elements can have attributes
+Attributes provide additional information about an element
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+for example,
+<a href="https://www.w3schools.com">This is a link</a>. Here href is an attribute.
+<p style="color:red">I am a paragraph</p>. Here style is an attribute.
+<p title='John "ShotGun" Nelson'>. Here title is an attribute.
+--------------------------------
+<hr> element:
+Displays an horizontal rule. For example,
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+---------------------------------
+<br> element:
+<br> element defines a line break.
+---------------------------------
+<pre> Element:
+<pre> element defines preformatted text. i.e., the paragraph will be printed as it is with 'spaces' and 'enters'.
+For example,
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+----------------------------------------
+
