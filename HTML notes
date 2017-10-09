@@ -347,14 +347,117 @@ in this case the BODY element.</p>
 --------------------------------------
 Refer to W3SCHOOLS-->HTML Images for more.
 --------------------------------------
-
-
-
-
-
-
-
-
-
+HTML Table:
+An HTML table is defined with the <table> tag.
+Each table row is defined with the <tr> tag. A table 
+is defined with the <th> tag. By default, table headings
+are bold and centered. A table data/cell is defined with the <td> tag. For example,
+<!DOCTYPE html>
+<html>
+  <body>
+    <table style="width:100%">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th> 
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+  </body>
+</html>
+------------------------------------------------
+Unordered List:
+An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+The list items will be marked with bullets (small black circles) by default
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+------------------------------------------------
+Ordered HTML List
+An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+The list items will be marked with numbers by default.
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+---------------------------------------------------
+Description Lists:
+HTML also supports description lists.
+A description list is a list of terms, with a description of each term.
+The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+-----------------------------------------------------
+Nested list:
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+----------------------------------------------
+Block-level Elements:
+A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+Examples of block-level elements:
+<div>
+<h1> - <h6>
+<p>
+<form>
+----------------------------------------------
+Inline Elements:
+An inline element does not start on a new line and only takes up as much width as necessary.
+Examples of inline elements:
+<span>
+<a>
+<img>
+--------------------------------------------
+The <div> Element:
+The <div> element is often used as a container for other HTML elements.
+The <div> element has no required attributes, but both style and class are common.
+When used together with CSS, the <div> element can be used to style blocks of content.
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, 
+  with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+-----------------------------------------------
+<span> Element:
+The <span> element is often used as a container for some text.
+The <span> element has no required attributes, but both style and class are common.
+When used together with CSS, the <span> element can be used to style parts of the text. For example,
+<h1>My <span style="color:red">Important</span> Heading</h1>
+-----------------------------------------------
+class Attribute:
+The HTML class attribute makes it possible to define equal styles for elements with the same class name.
+-----------------------------------------------
+Iframes:
+An HTML iframe is defined with the <iframe> tag:
+<iframe src="URL"></iframe>
+The src attribute specifies the URL (web address) of the inline frame page.
+Use the height and width attributes to specify the size of the iframe.
+The attribute values are specified in pixels by default, but they can also be in percent (like "80%").
+Example,
+<iframe src="demo_iframe.htm" height="200" width="300"></iframe>
+-------------------------------------------------
 
 
